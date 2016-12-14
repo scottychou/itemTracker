@@ -2,25 +2,36 @@
 <html>
   <head>
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/stylesheet.min.css">
     <meta charset="utf-8">
-    <title>Random Quote Machine</title>
+    <title>Item Tracker</title>
   </head>
   <body>
+    <header id="theHeader" class="clearfix">
+      <h1 id="logo"><a href="/" rel="home">ITEM TRACKER</a></h1>
+      <nav id="navbar">
+        <ul id="navList">
+          <li><a id="linkOne" href="#thingOne">thing</a></li>
+          <li><a id="linkTwo" href="#thingTwo">thing</a></li>
+          <li><a id="linkThree" href="#thingThree">thing</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="app">
+      <div id="nes">
+        <h1>Nintendo Entertainment System: NES Classic Edition</h1>
+      </div>
+
+    </div>
 
 
-    <footer id=myFooter>
-      <a href="#"><i class="fa fa-facebook"></i></a>
-      <a href="https://twitter.com/scottychou"><i class="fa fa-twitter"></i></a>
-      <a href="https://github.com/scottychou"><i class="fa fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/scottychou"><i class="fa fa-linkedin"></i></a>
-      <p>© 2016 <a href="#">Scott Chou</a>. All rights reserved.</p>
-    </footer>
     <!-- js scripts -->
-    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="vendor/jquery-3.1.1.min.js"></script>
+    <script src="vendor/underscore-min.js"></script>
+    <script src="vendor/backbone-min.js"></script>
+
     <script src="js/script.js"></script>
   </body>
 </html>
